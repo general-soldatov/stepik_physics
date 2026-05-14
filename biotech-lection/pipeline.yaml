@@ -1,0 +1,59 @@
+course:
+  course_id: 287410
+  score:
+    choice: 1
+    matching: 2
+    code: 5
+    sorting: 1
+    number: 3
+    string: 3
+    text: null
+
+sections:
+  # - title: Начало
+  #   lessons:
+  #     - title: Как всё начиналось
+  #       steps: 1_start_of_events/10_history.yaml
+  #     - title: Подготовка перед путешествием
+  #       steps: 1_start_of_events/20_prepare.yaml
+  #     - title: Продолжаем подготовку
+  #       steps: 1_start_of_events/30_sequel_of_prepare.yaml
+  # - title: Дело в прошлом
+  #   lessons:
+      # - title: Дело в прошлом
+      #   steps: 2_last/10_how_started.yaml
+      # - title: Новый знакомый
+      #   steps: 2_last/20_new_person.yaml
+      # - title: Продолжаем работу со светодиодами
+      #   steps: 2_last/30_work_with_led.yaml
+      # - title: Переменных требуют наши скетчи...
+      #   steps: 2_last/40_variables.yaml
+  # - title: Внезапное происшествие
+  #   lessons:
+      # - title: Затишье перед бурей
+      #   steps: 3_accident/10_still.yaml
+      # - title: Внезапное происшествие
+      #   steps: 3_accident/20_accident.yaml
+      # - title: Зацикленные
+      #   steps: 3_accident/30_cycles.yaml
+      # - title: Ожидание
+      #   steps: 3_accident/40_waiting.yaml
+
+  # - title: Спасение близко, но....
+  #   lessons:
+      # - title: Нас заметили!
+      #   steps: 4_first_aid/10_first_aid.yaml
+      # - title: Нас приняли!
+      #   steps: 4_first_aid/20_support.yaml
+      # - title: Скутер работает?
+      #   steps: 4_first_aid/30_scooter.yaml
+      # - title: Перекрёсток
+      #   steps: 4_first_aid/40_drive.yaml
+  - title: Бежать!
+    lessons:
+      # - title: В плену...
+      #   steps: 5_let_go/10_without_freedom.yaml
+      - title: Технологии нас спасут!
+        steps: 5_let_go/20_technology.yaml
+      - title: Час настал!
+        steps: 5_let_go/30_time_to_decide.yaml
