@@ -10,50 +10,59 @@ course:
     text: null
 
 sections:
-  # - title: Начало
-  #   lessons:
-  #     - title: Как всё начиналось
-  #       steps: 1_start_of_events/10_history.yaml
-  #     - title: Подготовка перед путешествием
-  #       steps: 1_start_of_events/20_prepare.yaml
-  #     - title: Продолжаем подготовку
-  #       steps: 1_start_of_events/30_sequel_of_prepare.yaml
-  # - title: Дело в прошлом
-  #   lessons:
-      # - title: Дело в прошлом
-      #   steps: 2_last/10_how_started.yaml
-      # - title: Новый знакомый
-      #   steps: 2_last/20_new_person.yaml
-      # - title: Продолжаем работу со светодиодами
-      #   steps: 2_last/30_work_with_led.yaml
-      # - title: Переменных требуют наши скетчи...
-      #   steps: 2_last/40_variables.yaml
-  # - title: Внезапное происшествие
-  #   lessons:
-      # - title: Затишье перед бурей
-      #   steps: 3_accident/10_still.yaml
-      # - title: Внезапное происшествие
-      #   steps: 3_accident/20_accident.yaml
-      # - title: Зацикленные
-      #   steps: 3_accident/30_cycles.yaml
-      # - title: Ожидание
-      #   steps: 3_accident/40_waiting.yaml
-
-  # - title: Спасение близко, но....
-  #   lessons:
-      # - title: Нас заметили!
-      #   steps: 4_first_aid/10_first_aid.yaml
-      # - title: Нас приняли!
-      #   steps: 4_first_aid/20_support.yaml
-      # - title: Скутер работает?
-      #   steps: 4_first_aid/30_scooter.yaml
-      # - title: Перекрёсток
-      #   steps: 4_first_aid/40_drive.yaml
-  - title: Бежать!
+  - title: Пора знакомиться
     lessons:
-      # - title: В плену...
-      #   steps: 5_let_go/10_without_freedom.yaml
-      - title: Технологии нас спасут!
-        steps: 5_let_go/20_technology.yaml
-      - title: Час настал!
-        steps: 5_let_go/30_time_to_decide.yaml
+      - title: Начало
+        steps: biotech-lection/0_intro/10_intro.yaml
+      - title: О физике, как надо
+        steps: biotech-lection/0_intro/21_about.md
+      - title: О моделях и экспериментах
+        steps: biotech-lection/0_intro/30_experience.yaml
+  - title: Механика
+    lessons:
+      - title: Кинематика
+        steps: biotech-lection/1_mech/10_kinematic.yaml
+      - title: Динамика
+        steps: biotech-lection/1_mech/20_dynamics.yaml
+      - title: Работа и энергия
+        steps: biotech-lection/1_mech/30_energy.yaml
+      - title: Колебательное движение точки
+        steps: biotech-lection/1_mech/40_oscillation.yaml
+      - title: Движение по окружности
+        steps: biotech-lection/1_mech/50_circle.yaml
+      - title: Волны
+        steps: biotech-lection/1_mech/60_wave.yaml
+  - title: МКТ и термодинамика
+    lessons:
+      - title: Явления переноса
+        steps: biotech-lection/2_mkt/10_phenomen_transfer.yaml
+      - title: МКТ (начало)
+        steps: biotech-lection/2_mkt/20_mkt.yaml
+      - title: МКТ (ещё раз)
+        steps: biotech-lection/2_mkt/30_mkt.yaml
+      - title: Термодинамика
+        steps: biotech-lection/2_mkt/40_tds.yaml
+      - title: Термодинамические процессы
+        steps: biotech-lection/2_mkt/50_tds.yaml
+      - title: Термодинамика (второй закон и энтропия)
+        steps: biotech-lection/2_mkt/60_tds.yaml
+  - title: Электромагнитные явления
+    lessons:
+      - title: Электростатика
+        steps: biotech-lection/3_em/10_electro.yaml
+      - title: Потенциал электрического поля
+        steps: biotech-lection/3_em/20_electro.yaml
+      - title: Электроёмкость
+        steps: biotech-lection/3_em/30_electro.yaml
+      - title: Законы постоянного тока
+        steps: biotech-lection/3_em/40_electric.yaml
+      - title: Продолжаем изучать постоянный ток
+        steps: biotech-lection/3_em/50_electric.yaml
+      - title: Магнетизм
+        steps: biotech-lection/3_em/60_magnetic.yaml
+      - title: Геометрическая оптика
+        steps: biotech-lection/3_em/70_optics.yaml
+      - title: Волновая оптика
+        steps: biotech-lection/3_em/80_optics.yaml
+      - title: Квантовая оптика
+        steps: biotech-lection/3_em/91_optics.md
